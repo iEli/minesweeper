@@ -16,7 +16,10 @@ This version of Minesweeper is playable from the console terminal and is written
 ### macOS:
 1. Open Terminal
 2. Get to wherever you downloaded the file using `cd ~/Downloads/minesweeper`
-3. Type  `python minsweeper.py`
+3. Type  `python3 minesweeper.py` or `python3 minesweeper.py <ROWS> <COLUMNS> <MINES>` to choose your own number of rows, columns, and mines
+> Optionally, add three integer values at the end of the command to use your own number of rows, columns, and mines, using
+> `python3 minesweeper.py <ROWS> <COLUMNS> <MINES>`
+>
 
 ## How to play:
 To reveal a cell, use `r <ROW> <COLUMN>`
